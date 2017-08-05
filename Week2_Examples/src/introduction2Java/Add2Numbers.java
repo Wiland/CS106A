@@ -1,3 +1,4 @@
+package introduction2Java;
 import acm.program.*;
 public class Add2Numbers extends ConsoleProgram {
 	public void run(){
