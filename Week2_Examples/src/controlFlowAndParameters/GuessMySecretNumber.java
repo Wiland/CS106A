@@ -19,4 +19,8 @@ public class GuessMySecretNumber extends ConsoleProgram{
 		}
 		println("That's the number!");
 	}
+	
+	public static void main(String[] args) {
+		new GuessMySecretNumber().start(args);
+	}
 }

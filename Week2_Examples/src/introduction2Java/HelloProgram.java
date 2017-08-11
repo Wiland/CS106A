@@ -11,4 +11,8 @@ public class HelloProgram extends GraphicsProgram {
 		label.setColor(Color.BLUE);
 		add(label);
 	}
+	
+	public static void main(String[] args){
+		new HelloProgram().start(args);
+	}
 }
